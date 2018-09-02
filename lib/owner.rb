@@ -8,6 +8,7 @@ class Owner
     @owner = "human"
     @@all << self
     @pets = { fishes: [], cats: [], dogs: [] }
+    binding.pry
   
   end
   
