@@ -11,4 +11,6 @@ class Owner
   
   end
   
+  def self.Owners
+  
 end
