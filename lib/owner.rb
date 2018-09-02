@@ -63,6 +63,6 @@ class Owner
   end
   
   def list_off
-      
+    fish count 
   end
 end
