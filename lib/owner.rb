@@ -7,7 +7,7 @@ class Owner
   def initialize(owner, pets = { fishes: [], cats: [], dogs: [] })
     @owner = "human"
     @pets = pets
-    
+  
   end
   
   def self.all
