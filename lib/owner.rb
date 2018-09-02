@@ -61,4 +61,6 @@ class Owner
     
     @pets = []
   end
+  
+  def list_off 
 end
