@@ -63,6 +63,6 @@ class Owner
   end
   
   def list_off
-    fish count 
+    fish_count = @pets[:fishes].count
   end
 end
