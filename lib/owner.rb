@@ -5,6 +5,7 @@ class Owner
   attr_accessor :pets
   @@all = []
   def initialize(species, name)
+    @name = name
     @species = "human"
     @@all << self
     @pets = { fishes: [], cats: [], dogs: [] }
