@@ -4,8 +4,8 @@ class Owner
   attr_reader :owner
   attr_accessor :pets
   @@all = []
-  def initialize(owner = "human", pets = {fishes: [], cats: [], dogs: []})
-    @owner = owner
+  def initialize(owner, pets = {fishes: [], cats: [], dogs: []})
+    @owner = human
     @pets = pets
     
   end
@@ -13,6 +13,6 @@ class Owner
   def self.all
     owner = self.new(@owner, @pets)
     @@all << owner
-    binding.pry
+    
   end  
 end
