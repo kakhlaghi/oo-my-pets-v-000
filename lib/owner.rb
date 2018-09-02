@@ -21,5 +21,6 @@ class Owner
   
   def self.count
     @@all.size
+    binding.pry
   end
 end
