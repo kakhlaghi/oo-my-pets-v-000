@@ -6,7 +6,7 @@ class Owner
   @Owners = []
   def initialize(owner)
     @owner = "human"
-    @@all << @owner
+    @owners << @owner
     @pets = { fishes: [], cats: [], dogs: [] }
   
   end
