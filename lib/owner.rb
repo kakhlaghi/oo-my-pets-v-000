@@ -32,7 +32,7 @@ class Owner
   
   def buy_fish(name)
     new_fish = Fish.new
-    @pets[Fish]
+    @pets[fishes]
   end
   
 end
