@@ -62,7 +62,7 @@ class Owner
     @pets = []
   end
   
-  def list_off
+  def list_pets
     fish_count = @pets[:fishes].count
     dogs_count = @pets[:dogs].count
     cats_count = @pets[:cats].count
