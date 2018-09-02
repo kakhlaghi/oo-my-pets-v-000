@@ -22,8 +22,8 @@ class Owner
     @@all.count
   end
   
-  def say_species(species)
-    puts "I am a #{species}."
+  def say_species
+    puts "I am a #{@species}."
   end
   
 end
