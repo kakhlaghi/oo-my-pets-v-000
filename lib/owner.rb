@@ -4,8 +4,7 @@ class Owner
   attr_reader :species, :name
   attr_accessor :pets
   @@all = []
-  def initialize(species, name)
-    @name = name
+  def initialize(species)
     @species = "human"
     @@all << self
     @pets = { fishes: [], cats: [], dogs: [] }
