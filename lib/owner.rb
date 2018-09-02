@@ -11,7 +11,7 @@ class Owner
   end
   
   def self.all
-    
-    @@all << self
+    owner_ = self.new(owner, pets)
+    @@all << owner_
   end  
 end
