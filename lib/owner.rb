@@ -11,7 +11,7 @@ class Owner
   end
   
   def self.all
-    owner = self.owner
+    owner = 
     @@all << owner
     
   end  
