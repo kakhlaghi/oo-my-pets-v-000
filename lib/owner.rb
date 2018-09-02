@@ -22,4 +22,7 @@ class Owner
     @@all.count
   end
   
+  def say_species(species)
+    puts @species
+  
 end
