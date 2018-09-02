@@ -22,6 +22,7 @@ class Owner
   end
   
   def self.count
-    @@all
+    binding.pry
+    @@all.count
   end
 end
