@@ -6,7 +6,7 @@ class Owner
   @@all = []
   def initialize(owner)
     @owner = "human"
-    binding.pry
+    
     @@all << self
     @pets = { fishes: [], cats: [], dogs: [] }
   
