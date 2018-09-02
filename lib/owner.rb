@@ -11,8 +11,6 @@ class Owner
   end
   
   def self.all
-    owner = self.new(owner)
-    @@all << owner
-    
+  
   end  
 end
