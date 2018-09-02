@@ -20,4 +20,6 @@ class Owner
   end
   
   def self.count
+    @@all.assert_recognizes
+  end
 end
