@@ -44,6 +44,7 @@ class Owner
   end
   
   def walk_dogs
-    @dogs
+    binding.pry
+    @pets[:dogs].each {|mood_lift| }
   end
 end
