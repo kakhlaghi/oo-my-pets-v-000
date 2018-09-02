@@ -12,5 +12,6 @@ class Owner
   end
   
   def self.Owners
+    @Owners
   
 end
