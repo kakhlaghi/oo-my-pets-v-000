@@ -6,7 +6,7 @@ class Owner
   @@all = []
   def initialize(owner, pets)
     @owner = "human"
-    @pets = {fishes: [], cats: [], dogs: []}
+    @pets = hash.new{fishes: [], cats: [], dogs: []}
     
   end
   
