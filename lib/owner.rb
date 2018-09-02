@@ -7,13 +7,13 @@ class Owner
   def initialize(owner)
     @owner = "human"
     binding.pry
-    @Owners << self
+    @@all << self
     @pets = { fishes: [], cats: [], dogs: [] }
   
   end
   
   def self.all
-    @Owners
+    @@all
   end
   
 end
