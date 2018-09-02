@@ -8,13 +8,13 @@ class Owner
     @owner = "human"
     @@all << self
     @pets = { fishes: [], cats: [], dogs: [] }
-    binding.pry
+    
   
   end
   
   def self.all
     @@all
-    binding.pry
+  
   end
   
   def self.reset_all
